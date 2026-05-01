@@ -13,31 +13,3 @@ My research studies industrial organization and energy markets.
 ## Contact
 
 Email: mqin34@wisc.edu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
