@@ -5,10 +5,9 @@ permalink: /
 author_profile: true
 ---
 
-I am a Ph.D. candidate in Agricultural and Applied Economics at the University of Wisconsin–Madison.
+I am a 3rd-year Ph.D. student in Agricultural and Applied Economics at the University of Wisconsin–Madison.
 
-My research studies industrial organization and energy markets.
-
+My research interests are environmental and energy economics, empirical industrial organization, and applied econometrics. Much of my current work studies electric vehicles, charging infrastructure, electricity pricing, and policy uncertainty in natural-resource extraction.
 
 ## Contact
 
