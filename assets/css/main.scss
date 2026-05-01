@@ -55,7 +55,6 @@ body {
   flex-direction: column;
 }
 
-/* Prevent AcademicPages layout blocks from being vertically squeezed */
 .masthead,
 .initial-content,
 .page__footer {
@@ -63,19 +62,17 @@ body {
   flex-shrink: 0;
 }
 
-/* Let the main content take up the remaining vertical space */
 .initial-content {
   flex: 1 0 auto;
 }
 
-/* Push footer to the bottom on short pages */
+.sidebar {
+  margin-bottom: 2rem;
+}
+
 .page__footer {
   margin-top: auto;
   clear: both;
-}
-
-/* Minimal footer styling */
-.page__footer {
   padding-top: 0.9rem;
   padding-bottom: 0.9rem;
   font-size: 0.75rem;
