@@ -8,6 +8,6 @@ author_profile: true
 ## Teaching Assistant
 
 **AAE 322: Commodity Markets**, University of Wisconsin–Madison  
-Teaching Assistant, Spring 2026
+Teaching Assistant, 2025–2026
 
-Responsibilities included leading weekly discussion sections, preparing review materials, grading assignments, and assisting students with futures, options, hedging, basis, spreads, and commodity market applications.
+Responsibilities included leading discussion sections, holding office hours, preparing review materials, and assisting students with futures markets, options, hedging, basis, spreads, and commodity market applications.
