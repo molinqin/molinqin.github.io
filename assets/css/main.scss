@@ -42,4 +42,32 @@
     "vendor/font-awesome/brands"
 ;
 
+/* --- Safer footer positioning for AcademicPages --- */
 
+/* Keep the main content area tall enough on short pages.
+   This avoids changing the whole body layout, which messes with AcademicPages. */
+.initial-content {
+  min-height: calc(100vh - 180px);
+}
+
+/* AcademicPages uses floated sidebars, so make sure the footer waits
+   until both the main text and sidebar are finished. */
+#main::after,
+.initial-content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Footer should come after all floated content */
+.page__footer {
+  clear: both;
+  margin-top: 0;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  font-size: 0.75rem;
+}
+
+.page__footer-copyright {
+  line-height: 1.5;
+}
