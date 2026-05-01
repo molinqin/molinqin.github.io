@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Molin Qin"
 title_separator          : "-"
 name                     : &name "Molin Qin"
-description              : &description "3rd Year Ph.D. Student in Agricultural and Applied Economics, University of Wisconsin–Madison"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "3rd Year Ph.D. Student in Agricultural and Applied Economics"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://molinqin.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
