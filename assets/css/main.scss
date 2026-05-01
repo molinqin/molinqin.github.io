@@ -43,24 +43,26 @@
 ;
 
 
-html, body {
-  height: 100%;
-}
-
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+/* Keep the main content tall enough so the footer sits near the bottom
+   on short pages, without turning the whole body into a flex layout. */
 
 .initial-content {
-  flex: 1 0 auto;
+  min-height: calc(100vh - 170px);
 }
 
+/* Minimal footer spacing */
 .page__footer {
-  margin-top: auto;
+  margin-top: 0;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  font-size: 0.75rem;
 }
 
+.page__footer-copyright {
+  line-height: 1.5;
+}
+
+/* Hide footer clutter from the template */
 .page__footer .page__footer-follow,
 .page__footer nav,
 .page__footer .social-icons {
