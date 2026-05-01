@@ -43,28 +43,44 @@
 ;
 
 
-/* Keep the main content tall enough so the footer sits near the bottom
-   on short pages, without turning the whole body into a flex layout. */
+/* --- Minimal sticky footer fix --- */
 
-.initial-content {
-  min-height: calc(100vh - 170px);
+html {
+  height: 100%;
 }
 
-/* Minimal footer spacing */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Prevent AcademicPages layout blocks from being vertically squeezed */
+.masthead,
+.initial-content,
 .page__footer {
-  margin-top: 0;
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+/* Let the main content take up the remaining vertical space */
+.initial-content {
+  flex: 1 0 auto;
+}
+
+/* Push footer to the bottom on short pages */
+.page__footer {
+  margin-top: auto;
+  clear: both;
+}
+
+/* Minimal footer styling */
+.page__footer {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
   font-size: 0.75rem;
 }
 
 .page__footer-copyright {
   line-height: 1.5;
-}
-
-/* Hide footer clutter from the template */
-.page__footer .page__footer-follow,
-.page__footer nav,
-.page__footer .social-icons {
-  display: none !important;
 }
