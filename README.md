@@ -12,7 +12,6 @@ Personal academic website of Molin Qin. A single static HTML page with no build 
 | `images/` | Portrait and favicons |
 | `404.html` | Not-found page |
 | `CNAME` | Custom domain for GitHub Pages |
-| `.nojekyll` | Tells GitHub Pages to serve the files as-is |
 
 ## Editing
 
